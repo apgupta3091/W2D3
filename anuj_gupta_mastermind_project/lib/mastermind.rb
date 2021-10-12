@@ -19,7 +19,6 @@ class Mastermind
         user_guess = gets.chomp
         code = Code.from_string(user_guess)
         print_matches(code)
-
         @secret_code == code 
 
     end
